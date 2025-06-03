@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-color: #001e4d;
+}
+
+.app {
+    background: #fff;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+}
+
+.btn {
+
+    border: 1px solid #191919;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    margin:18px 5px -5px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+button:disabled {
+    color: #222;
+}
+
+#answer-bottons .btn:hover:not(:disabled) {
+    background-color: #222;
+    color: #fff;
+    font-weight: 600;
+}
+
+.app h1 {
+    font-size: 2.4rem;
+    border-bottom: 1px solid #333;
+    color: #001e4d;
+}
+
+.app h2 {
+    font-size: 18px;
+    color: #001e4d;
+    margin: 10px 0px -10px 0px;
+}
+
+#next-btn {
+    background-color: #001e4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 30px auto 0px ;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: rgb(189, 217, 148);
+}
+
+.wrong {
+    background: rgb(217, 149, 148);
+}
